@@ -1,6 +1,6 @@
 import os
 val=input("enter the number");
-text=input("enter the problem");
+text= raw_input("enter the problem");
 s=str(val);
 f= open(s+".in","w+")
 f.close();
