@@ -54,7 +54,7 @@ done
 h=$(git rev-parse --show-toplevel)
 cd $h
 echo "Running file verifier from", `pwd`
-python3 ./utils/verify.py -f
+#python3 ./utils/verify.py -f
 
 ret=$?
 if [ "$ret" -ne "0" ]; then
