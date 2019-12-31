@@ -15,5 +15,7 @@ int main() {
   }
   int key;
   cin >> key;
-  cout << upper_bound(a.begin(), a.end(), key) - lower_bound(a.begin(), a.end(), key) << endl;
+  cout << upper_bound(a.begin(), a.end(), key) -
+              lower_bound(a.begin(), a.end(), key)
+       << endl;
 }
