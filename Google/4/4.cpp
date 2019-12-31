@@ -5,12 +5,11 @@ struct cmp {
   bool operator()(int A, int B) { return A > B; }
 };
 
-void kth_largest(int k) {
+void kth_largest(int k, int num_iter) {
   priority_queue<int, vector<int>, cmp> H;
   int count = 0;
   int N;
   while (1) {
-    // cout<<"Enter element : ";
     cin >> N;
     if (H.size() < k)
       H.push(N);
@@ -19,15 +18,23 @@ void kth_largest(int k) {
         H.pop();
         H.push(N);
       }
-      cout << "Kth Largest Element : " << H.top() << endl;
     }
     count++;
-    if (count == 10) // Just to break the while loop for testing
+    if (count == num_iter) {
+      // Print the k-th largest element at the termination.
+      cout << H.top() << endl;
       break;
+    }
   }
 }
 
-int main(void) {
-  kth_largest(3);
+int main() {
+  std::string s;
+  int p;
+  int num_iter;
+  std::cin >> num_iter;
+  int nth;
+  std::cin >> nth;
+  kth_largest(nth, num_iter);
   return 0;
 }

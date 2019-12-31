@@ -44,4 +44,5 @@ int main() {
     auto res = longest_k_substring(s, p);
     std::cout << res.first << ' ' << res.second << '\n';
   }
+  return 0;
 }
