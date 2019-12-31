@@ -29,8 +29,6 @@ void kth_largest(int k, int num_iter) {
 }
 
 int main() {
-  std::string s;
-  int p;
   int num_iter;
   std::cin >> num_iter;
   int nth;
