@@ -1,15 +1,19 @@
-#include<iostream>
-#include<algorithm>
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
 using namespace std;
 
-	int main(){
-		int n;
-		cin>>n;
-		int a[n];
-			for(int i=0;i<n;i++){
-				cin>>a[i];
-			}
-		int key;
-		cin>>key;
-		cout<<upper_bound(a,a+n,key)-lower_bound(a,a+n,key)<<endl;	
-	}
+int main() {
+  int n;
+  cin >> n;
+  std::vector<int> a;
+  for (int i = 0; i < n; i++) {
+    int k;
+    cin >> k;
+    a.push_back(k);
+  }
+  int key;
+  cin >> key;
+  cout << upper_bound(a.begin(), a.end(), key) - lower_bound(a.begin(), a.end(), key) << endl;
+}
