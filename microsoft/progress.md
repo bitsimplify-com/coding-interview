@@ -1,4 +1,4 @@
-﻿## Microsoft questions
+## Microsoft questions
 
  1. Count number of set bits   
  - [x] cpp
