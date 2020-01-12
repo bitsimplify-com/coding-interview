@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 To run and test the program for each company
 ./utils/verify -r
