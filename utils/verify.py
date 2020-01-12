@@ -173,7 +173,7 @@ def run_program(program_dir, scratch):
     test_fail = 0
     for f in files:
         ip = os.path.join(program_dir, f)
-        output = ''
+        output = None
         if is_c_file(f):
             output = run_c_program(ip, scratch)
         if is_py_file(f):
@@ -196,9 +196,11 @@ def run_programs(company_dir, scratch):
     test_pass = 0
     test_fail = 0
     for subdir in dirs:
-        p,f = run_program(os.path.join(company_dir, subdir), scratch)
-        test_pass += p
-        test_fail += f
+        dirname = os.path.join(company_dir, subdir)
+        if os.path.isdir(dirname):
+            p,f = run_program(dirname, scratch)
+            test_pass += p
+            test_fail += f
     return test_pass, test_fail
 
 def run_all_companies(scratch):
