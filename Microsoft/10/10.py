@@ -20,7 +20,6 @@ def printArray(a):
         print(k," ",end="");
 
 
-n=int(input());
 arr = [int(x) for x in input().split()]
 arr_size = len(arr)
 arr = sort012(arr, arr_size)
