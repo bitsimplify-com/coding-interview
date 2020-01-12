@@ -57,7 +57,7 @@ def error_reporter(err, level):
 
 def get_company_list():
     # TODO: Get list using os.list_dir
-    return ['Google', 'Uber']
+    return ['Microsoft', 'Uber']
 
 def check_include_formatting(filename):
     reg = re.compile(r'#include.*".*"')
