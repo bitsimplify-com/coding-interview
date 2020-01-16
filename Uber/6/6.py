@@ -1,18 +1,30 @@
-def findNullTriplets(list):
-    size = len(list)
-    ans = []
-    tempSet = set()
-    for i in range(size - 1):
-        for j in range(i + 1, size):
-            x = -(list[i] + list[j])
-            if x in tempSet:
-                ans.append([x, list[i], list[j]])
-            else:
-                tempSet.add(list[j])
-    return ans
+def findTriplets(arr, n):
+    found = False
 
-n = input()
-elements = list(map(int, input().split()))
-answers = findNullTriplets(elements)
-for ans in answers:
-    print(ans)
+    arr.sort()
+
+    for i in range(0, n - 1):
+
+        l = i + 1
+        r = n - 1
+        x = arr[i]
+        while (l < r):
+
+            if (x + arr[l] + arr[r] == 0):
+                print(x, arr[l], arr[r])
+                l += 1
+                r -= 1
+                found = True
+
+
+            elif (x + arr[l] + arr[r] < 0):
+                l += 1
+
+            else:
+                r -= 1
+
+    if (found == False):
+        print(" No Triplet Found")
+n=int(input())
+arr = [int(x) for x in input().split()]
+findTriplets(arr, n) 

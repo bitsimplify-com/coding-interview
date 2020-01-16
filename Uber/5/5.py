@@ -25,7 +25,7 @@ def regionsBySlashes(grid, regions = 0):
 grid = []
 num_inputs=0
 started = False
-
+x=int(input())
 for line in sys.stdin:
     if num_inputs==0 and started == False:
         num_inputs = int(line)

@@ -1,35 +1,46 @@
-#include <iostream>
-#include <unordered_set>
-#include <vector>
-
-std::vector<std::vector<int>> findNullTriplets(std::vector<int> list) {
-  std::vector<std::vector<int>> ans;
-  std::unordered_set<int> tempSet;
-  for (int i = 0; i < list.size() - 1; i++) {
-    for (int j = i + 1; j < list.size(); j++) {
-      int x = -(list[i] + list[j]);
-      if (tempSet.find(x) != tempSet.end()) {
-        ans.push_back({x, list[i], list[j]});
-      } else
-        tempSet.insert(list[j]);
-    }
-  }
-  return ans;
-}
-
-int main() {
-  int n;
-  std::cin >> n;
-  std::vector<int> vec(n);
-  for (int i = 0; i < n; i++) {
-    std::cin >> vec[i];
-  }
-  std::vector<std::vector<int>> answers = findNullTriplets(vec);
-  for (std::vector<int> ans : answers) {
-    for (int x : ans) {
-      std::cout << x << " ";
-    }
-    std::cout << "\n";
-  }
-  return 0;
-}
+#include<bits/stdc++.h> 
+using namespace std; 
+  
+void findTriplets(int arr[], int n) 
+{ 
+    bool found = false; 
+  
+    sort(arr, arr+n); 
+  
+    for (int i=0; i<n-1; i++) 
+    { 
+        int l = i + 1; 
+        int r = n - 1; 
+        int x = arr[i]; 
+        while (l < r) 
+        { 
+            if (x + arr[l] + arr[r] == 0) 
+            { 
+                printf("%d %d %d\n", x, arr[l], arr[r]); 
+                l++; 
+                r--; 
+                found = true; 
+            } 
+  
+            else if (x + arr[l] + arr[r] < 0) 
+                l++; 
+            else
+                r--; 
+        } 
+    } 
+  
+    if (found == false) 
+        cout << " No Triplet Found" << endl; 
+} 
+  
+int main() 
+{ 
+  	int n;
+  	cin>>n;
+  	int arr[n];
+  	for(int i=0;i<n;i++){
+  	cin>>arr[i];	
+	  }
+    findTriplets(arr, n); 
+    return 0; 
+} 

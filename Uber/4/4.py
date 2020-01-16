@@ -1,7 +1,7 @@
 from queue import Queue
 
-class newNode: 
-    def __init__(self, data): 
+class newNode:
+    def __init__(self, data):
         self.data = data
         self.left = None
         self.right = None
