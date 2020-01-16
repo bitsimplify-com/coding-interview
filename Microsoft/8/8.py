@@ -31,8 +31,9 @@ def push(head, new_data):
 if __name__ == '__main__':
     head = None
     n=int(input())
-    for i in range(0,n):
-        x=int(input())
-        head = push(head, x)
+    x=input()
+    inputs = x.split()
+    for i in inputs:
+        head = push(head, i)
 
     print(findSecondLastNode(head))
