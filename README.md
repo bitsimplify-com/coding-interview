@@ -25,3 +25,15 @@ run `./utils/verify -r` from the PROJECT_HOME directory. If the output of the pr
 - Compare the output with the existing .out file.
 `diff 1.prog.out Google/1/1.out`
 ### If the diff does not print anything that means there is no difference. If there is a difference then we need to fix it.
+
+## Machine Learning, Data Science coding and conceptual questions
+### Coding questions
+- Collect a list of coding questions and write the answer in python, if C++ is possible then do that otherwise only python.
+- Follow the structure of company based questions for the input,output,.md,.py file.
+- Put as much detail in .md file as possible. e.g., see Microsoft/4/4.md
+
+### Concept questions
+- Many websites/blogs have a good collection of such questions (e.g., https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/, https://www.simplilearn.com/machine-learning-interview-questions-and-answers-article)
+- Use the above websites for guidance and do your research as well, try to put helpful questions only to reduce noise.
+- Each question and answer should be in a separate .md file
+- Pay attention to grammar and readability.
