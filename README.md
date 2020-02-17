@@ -33,7 +33,12 @@ run `./utils/verify -r` from the PROJECT_HOME directory. If the output of the pr
 - Put as much detail in .md file as possible. e.g., see Microsoft/4/4.md
 
 ### Concept questions
-- Many websites/blogs have a good collection of such questions (e.g., https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/, https://www.simplilearn.com/machine-learning-interview-questions-and-answers-article)
+- Many websites/blogs have a good collection of such questions:
+  -- https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/,
+  -- https://www.simplilearn.com/machine-learning-interview-questions-and-answers-article,
+  -- https://www.analyticsvidhya.com/blog/2017/04/40-questions-test-data-scientist-machine-learning-solution-skillpower-machine-learning-datafest-2017/,
+  -- https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/?utm_source=40-questions-test-data-scientist-machine-learning-solution-skillpower-machine-learning-datafest-2017
+  -- https://www.javacodemonk.com/google-data-scientist-interview-questions-with-answers-f7e88581)
 - Use the above websites for guidance and do your research as well, try to put helpful questions only to reduce noise.
 - Each question and answer should be in a separate .md file
 - Pay attention to grammar and readability.
