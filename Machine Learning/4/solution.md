@@ -1,6 +1,6 @@
 A confusion matrix is generally used when performing classification using Machine Learning Algorithms. It is used to judge the accuracy of the model. An example of a confusion matrix is given below.
 
-!('Machine Learning/4/cf_matrix.png')
+!['Confusion Matrix'](Machine Learning/4/cf_matrix.png)
 
 Image taken from: https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/
 
