@@ -1,0 +1,11 @@
+Classically speaking, Machine Learning can be categorised into 2 parts\
+•	Supervised Learning\
+•	Unsupervised Learning\
+To give you better shot at understanding this, let us learn this with the help of an example.
+Consider the case of a baby. Initially, he doesn’t recognize the difference between a cat & a dog, that is, he is not able to differentiate between them. Gradually his parents show him certain samples and tell him whether a particular example is of a cat or a dog. Now the child slowly begins to realize the difference between them- this can be based on their facial difference or certain features or characteristics. This is recognized as a type of Supervised Learning. Supervised in a sense that his learning is being seen or judged by somebody and someone is always there to guide him.
+Likewise, supervised learning in machine learning, a model makes certain predictions or conclusions based on the past labeled data. The label refers to the set of data that are given tags, thereby making the data more meaningful. Clearly speaking, if in the above example, we render a label of 1 to dog and 2 to cat and make a machine learning model being trained on this dataset, it is then defined as Supervised Learning.
+
+On the other hand, there is no concept of Labels or tags in Unsupervised Learning. Unsupervised Learning works in a way that the model finds out the certain pattern and relations in the given dataset and then make predictions on this. It is like when a child learns certain things on its own without someone supervising him.
+
+However, in recent times, a new type of Machine Learning has evolved, known as Reinforcement Learning.
+Technically speaking, Reinforcement Learning is a buzzword in modern AI games. It is based on the concept of rewards and punishment. This can be better understood with the help of an example. Imagine you are designing a game in which the agent (the player) has to reach a certain target. Nevertheless, there are certain obstructions in its way. With each passing step, if the agent is taking a step closer to its goal, it receives a positive feedback. If it steps on an obstruction, it obtains a negative feedback. Established on the feedback received, the model is retraining itself time and again. Thus, it is being named as Reinforcement Learning.
