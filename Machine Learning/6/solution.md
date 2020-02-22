@@ -1,0 +1,5 @@
+**Understanding the problem and judging which ML algorithm to use is a complex process, particularly with so many types of algorithms we have in hand. It depends on how much do you understand the algorithms. If the problem is based on classification or categorization then obviously you will use a classification model. If the question is based on a continuous value problem, then you will use a regression type of model.**
+ 
+**Suppose the model exhibits linearity and is a continuous value problem, then the linear regression model is most suitable. If you are working with images or computer vision, then Neutral Networks is the most appropriate choice. If it is a simple classification problem, then you can use algorithms like Naïve Bayes or Decision Trees. However, if this is a clustering and grouping problem, then you can use k means clustering.**
+ 
+**In short, there is no master algorithm for any problem. The choice of algorithm is absolutely yours. The decision is based on your understanding of the model. You should be cautious enough to use hit and trial on the algorithms and arrive at the best possible solution.**
