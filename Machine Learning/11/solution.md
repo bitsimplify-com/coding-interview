@@ -1,6 +1,6 @@
 Decision Tree is a supervised Machine Learning Algorithm. Its meaning is quite evident from its name. It is a tree-like structure where at every node you need to take a decision to arrive at the possible solution. Let us understand this with the help of an example.
 
-Image here
+![Decision Tree Example](https://github.com/hiraditya/coding-sajal/blob/master/Machine%20Learning/11/decision_tree_example.PNG)
 
 Image Source: https://towardsdatascience.com/decision-tree-classification-de64fc4d5aac
 
