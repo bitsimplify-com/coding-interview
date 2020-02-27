@@ -1,0 +1,1 @@
+**You are given a dataset with 1000 columns and 1,00,000 rows. It is a classification problem. The computation time for prediction of result is very high due to which your client is not happy with the speed of prediction he is receiving. You/him also have  memory constraints on your PCs. Being a senior Machine Learning how can you solve this case making practical assumptions?**
