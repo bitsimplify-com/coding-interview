@@ -1,0 +1,1 @@
+**Suppose you are a data scientist working at Netflix. You need to predict the number of customers who will renew their subscription next month. How will you solve this problem? What kind of data will you need? What analysis will you do? Will you build a predictive model? If so, which algorithm will you use?**
