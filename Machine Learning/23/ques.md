@@ -1,0 +1,1 @@
+**Suppose you are given a dataset that contains the gender of a person. However, other features of your dataset contain numerical values so you want to convert the gender (which is male or female) to numerical data too for easier analysis. How will you perform this job?**
