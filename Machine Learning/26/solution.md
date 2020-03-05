@@ -2,7 +2,8 @@ K is the number of clusters we want to divide our dataset into. Generally speaki
 
 The general algorithm which we use for finding the optimal number of clusters is known as the Elbow method. It works in a way like it calculates the value of inertia which is the sum of squared distances of sample to their closet cluster center. We then iterate over the values of k  in the range say 1-7 and calculate the value of inertia for each value of k in the given range. The optimal value of k will be more clear from the given example
 
-Image here.
+![Elbow Method](https://github.com/hiraditya/coding-sajal/blob/master/Machine%20Learning/26/elbow_method.PNG)
+
 Source:  https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/
 
 In the given example, the optimal value of k will be 3 as this is the elbow point. Elbow point is the point after which inertia starts decreasing in the linear fashion.
