@@ -1,0 +1,2 @@
+Cosine Similarity is used to judge the similarity of 2 words. For example, if two words are closely related, their cosine similarity will be on a higher scale. Therefore, it is used to find relation b/w 2 Words. To give a clear idea theoretically, Dhoni and Cricket (the game) will have a higher similarity because they are used in the same context. In other words, whenever the word Dhoni appears there is a high chance the word cricket will also appear. Hence, they are closely inter-related. Mathematically, we will be discussing this in the later questions.
+
