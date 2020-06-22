@@ -16,7 +16,7 @@ Find the level with the maximum number of nodes in a )binary tree.
 6)Find all triplets from an array which adds up to zero.
 
 
-Given a 2D grid formed of 0’s and 1’s. Find the largest number of 1’s connected horizontally or vertically. 
+7) Given a 2D grid formed of 0’s and 1’s. Find the largest number of 1’s connected horizontally or vertically. 
 
 Serialize and deserialize a n-ary tree
 Implement an LRU cache

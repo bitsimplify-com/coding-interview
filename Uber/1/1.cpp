@@ -8,6 +8,7 @@ int isPointWithinGrid(std::vector<std::vector<int>> Grid, int row, int col,
   return (row >= 0) && (row < RowSize) && (col >= 0) && (col < ColSize) &&
          (Grid[row][col] && !visited[row][col]);
 }
+
 void DepthFirstSearch(std::vector<std::vector<int>> Grid, int row, int col,
                       std::vector<std::vector<bool>> visited, int &count,
                       int RowSize, int ColSize) {

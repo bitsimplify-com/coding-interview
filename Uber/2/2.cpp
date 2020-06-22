@@ -17,7 +17,8 @@ int dfs(std::vector<std::vector<int>> matrix, std::vector<std::vector<int>> dp,
     dp[x][y] = std::max(dp[x][y], dfs(matrix, dp, xx, yy));
   }
   return ++dp[x][y];
-};
+}
+
 int longestIncreasingPath(std::vector<std::vector<int>> &matrix) {
   int rows = matrix.size();
   if (!rows)

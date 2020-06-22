@@ -57,8 +57,8 @@ int main() {
     g.addEdge(src, dst);
   }
   if (g.isCyclic())
-    std::cout << "Graph contains cycle \n";
+    std::cout << "Graph contains cycle\n";
   else
-    std::cout << "Graph doesn't contain cycle \n";
+    std::cout << "Graph doesn't contain cycle\n";
   return 0;
 }
