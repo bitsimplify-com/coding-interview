@@ -2,7 +2,7 @@
 using namespace std;
 class sample {
 public:
-    int maxProfit(vector<int>& prices) {
+    int maxProfit(const vector<int>& prices) {
         int l=prices.size();
         if(l==0 || l==1)return 0;
         int buy[l+1];
