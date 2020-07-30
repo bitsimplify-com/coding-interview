@@ -41,6 +41,12 @@ void preorder(TreeNode* root){
     preorder(root->left);
     preorder(root->right);
 }
+void inorder(TreeNode* root){
+    if(!root)return;
+    inorder(root->left);
+    cout<<root->val<<" ";
+    inorder(root->right);
+}
 int main()
 {
     sample g;
@@ -50,5 +56,7 @@ int main()
     for (int i = 0; i < n; i++)cin >> nums[i];
     TreeNode* root=g.constructMaximumBinaryTree(nums);
     preorder(root);
+    cout<<"\n";
+    inorder(root);
     return 0;
 }
